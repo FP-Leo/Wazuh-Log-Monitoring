@@ -168,3 +168,7 @@ pip install -r requirements.txt
 * Make sure the Wazuh API is reachable and the cert file is valid.
 
 ---
+
+For automation purposes, see [`docs/automation_script`](docs/automation_script.md).
+
+---

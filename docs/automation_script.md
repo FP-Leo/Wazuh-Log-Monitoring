@@ -1,4 +1,3 @@
-````markdown
 # Integration Setup Script
 
 This Bash script automates the setup of an integration environment, including checking dependencies, creating a Python virtual environment, installing necessary packages, and ensuring all required files and folders are present in a specified target directory.
@@ -15,7 +14,28 @@ This Bash script automates the setup of an integration environment, including ch
 
 ## Usage
 
-Save the script as `setup.sh`, make it executable, and run it:
+1. **Clone the repository** and place the necessary files and folders into a single directory.
+
+2. The directory should contain the following **folders**:
+   - `env-files`
+   - `log-files`
+   - `extra-files`
+
+   And the following **files**:
+   - `custom_errors.py`
+   - `env_handler.py`
+   - `log_monitor.py`
+   - `logger.py`
+   - `slack_handler.py`
+   - `smtp_handler.py`
+   - `wazuh_api_handler.py`
+   - `monitor_log_counter.sh`
+   - `requirements.txt`
+   - `setup.sh` (this script)
+
+3. **Transfer the directory** to your target machine, example for Linux machines you can use a tool like **WinSCP**.
+
+4. On the Linux machine, make the script executable and run it:
 
 ```bash
 chmod +x setup.sh
