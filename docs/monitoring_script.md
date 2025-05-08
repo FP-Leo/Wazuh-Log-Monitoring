@@ -1,10 +1,6 @@
----
-
 ## 🛠️ `monitor_log_counter.sh`
 
 This Bash script is designed to ensure the `log_monitor.py` script is always running. It is intended to be scheduled via `cron` to run periodically (e.g., every minute), acting as a lightweight watchdog process.
-
----
 
 ### 📁 Script Location
 

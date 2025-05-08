@@ -44,7 +44,7 @@ api_key = env_handler.load_var("API_KEY")
 ---
 
 ### `logger.py`
-This module provides a custom logging utility for RINT projects. It allows writing structured log entries with controlled verbosity and thread-safe access to log files.
+This module provides a custom logging utility. It allows writing structured log entries with controlled verbosity and thread-safe access to log files.
 
 **Classes:**
 
