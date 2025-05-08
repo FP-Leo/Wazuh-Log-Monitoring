@@ -6,6 +6,10 @@
 
 This script is ideal for teams running security monitoring via Wazuh who need real-time visibility into agent inactivity or communication issues.
 
+### ⚠️ Disclaimer
+
+This script has been **white-labeled for security purposes**. Certain names and references have been modified or anonymized. As a result, you may encounter **reference errors** when running the script. These are expected and should be resolved by updating the script with the correct names or paths relevant to your environment. Once corrected, the script is expected to function as intended.
+
 ---
 
 ## Features
@@ -23,7 +27,7 @@ This script is ideal for teams running security monitoring via Wazuh who need re
 
 ## Architecture
 
-![LogCounter Overview](assets/logcounter.png)
+![LogCounter Overview](assets/Log_counter_architecture.png)
 
 ```
 +-------------------+
