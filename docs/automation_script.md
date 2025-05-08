@@ -31,7 +31,7 @@ This Bash script automates the setup of an integration environment, including ch
    - `wazuh_api_handler.py`
    - `monitor_log_counter.sh`
    - `requirements.txt`
-   - `setup.sh` (this script)
+   - `setup_log_counter.sh` (this script)
 
 3. **Transfer the directory** to your target machine, example for Linux machines you can use a tool like **WinSCP**.
 
